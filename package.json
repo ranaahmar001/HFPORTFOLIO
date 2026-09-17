@@ -1,0 +1,25 @@
+{
+  "name": "hfportfolio",
+  "version": "1.0.0",
+  "description": "HF Digital Media - Built for Growth. Backed by Performance.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "http-server -p 8080 -c-1 -o",
+    "start": "http-server -p 8080 -c-1",
+    "build": "echo 'No build step required for this project'",
+    "test": "echo 'No tests configured yet'",
+    "serve": "python -m http.server 8000 --bind 127.0.0.1"
+  },
+  "keywords": [
+    "portfolio",
+    "digital-media",
+    "marketing",
+    "performance"
+  ],
+  "author": "HF Digital Media",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
